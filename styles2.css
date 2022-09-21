@@ -4,7 +4,9 @@
     margin: 0px auto;
 }
 
-
+body {
+    width: 72em;
+}
 
 .container {
     display: flex;
@@ -393,8 +395,14 @@ a#home {
             input#exist-0, input#exist-1, input#exist-2, input#exist-3, input#exist-4, input#exist-5, input#exist-6{
                 width: 2em;
             }
+
+            .main-container{
+                width: 100%;
+            }
+            body {
+                width: 72em;
+            }
 }
 
-@media only screen and (max-width: 600px){
-    
-}
+
+
