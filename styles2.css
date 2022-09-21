@@ -9,7 +9,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    column-gap: 50px;
+    column-gap: 30px;
     justify-content: center;
     margin-top: 66px;
   background-color: black;
@@ -240,7 +240,7 @@ a#home {
 
     .main-container {
         margin: 0px auto;
-        width: 80em;
+        width: 84em;
     }
 
     .sub-container-1 {
@@ -272,7 +272,7 @@ a#home {
 @media only screen and (min-width: 768px) {
     .main-container {
         margin: 0px auto;
-        width: 80em;
+        width: 84em;
     }
 
     .sub-container-1 {
@@ -301,7 +301,7 @@ a#home {
 
 @media only screen and (min-width: 600px) {
     .main-container {
-        width: 80em;
+        width: 84em;
         margin: 0px auto;
     }
 
@@ -333,7 +333,8 @@ a#home {
 
     .main-container {
         margin: 0px auto;
-        width: 80em;
+        width: 84em;
+        
     }
 
     .sub-container-1 {
@@ -353,8 +354,47 @@ a#home {
                 margin: 0px;
             }
 
-            input#input,#input-1,#input-2,#input-3 {
-                width: fit-content;
-                margin: 24px;
+            input#match-0{
+                width: 2em;
             }
+            input#match-1 {
+                width: 2em;
+            }
+            input#match-2{
+                width: 2em;
+            }
+            input#match-3 {
+                width: 2em;
+            }
+            input#match-4 {
+                width: 2em;
+            }
+            input#match-5 {
+                width: 2em;
+            }
+            input#match-6 {
+                width: 2em;
+            }
+
+          input[type="text"] {
+
+            margin: 15px;
+
+            }
+
+            input#input,input#input-1,input#input-2,input#input-3{
+                width: auto;
+            }
+
+            p#question {
+                width: auto;
+            }
+
+            input#exist-0, input#exist-1, input#exist-2, input#exist-3, input#exist-4, input#exist-5, input#exist-6{
+                width: 2em;
+            }
+}
+
+@media only screen and (max-width: 600px){
+    
 }
