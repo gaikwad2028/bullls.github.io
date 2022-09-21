@@ -150,9 +150,10 @@ a.bk {
 }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
     img#firstbull {
-        width: 350px;
+        width: 301px;
+        min-width: 301px;
     }
 
     article {
@@ -163,6 +164,17 @@ a.bk {
         font-weight: 400;
         box-shadow: 0px 0px 29px;
     }
+
+    a.bk {
+        padding: 5px 35px;
+        font-weight: 300;
+        font-size: 32px;
+    }
+
+    img.png {
+        width: 21em;
+    }
+    
 }
 
 
