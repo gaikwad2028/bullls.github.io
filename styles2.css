@@ -334,8 +334,8 @@ a#home {
 
         input#guess-6,input#guess-0,input#guess-1,input#guess-2,input#guess-3,input#guess-4,input#guess-5{
             margin: 1px;
-            width: 5em;
-             height: 3em;
+            width: 3em;
+             height: 2em;
              font-size: 0.8em;
         }    
 
@@ -346,38 +346,38 @@ a#home {
             }
 
             input#match-0{
-                width: 1em;
-                height: auto;
+                width: 3em;
+                height:2em;
                 font-size: 0.8em;
             }
             input#match-1 {
-                width: 1em;
-               height: auto;
+                width: 3em;
+                height:2em;
                font-size: 0.8em;
             }
             input#match-2{
-                width: 1em;
-                height: auto;
+                width: 3em;
+                height:2em;
                 font-size: 0.8em;
             }
             input#match-3 {
-                width: 1em;
-                height: auto;
+                width: 3em;
+                height:2em;
                 font-size: 0.8em;
             }
             input#match-4 {
-                 width: 1em;
-                height: auto;
+                width: 3em;
+                height:2em;
                 font-size: 0.8em;
             }
             input#match-5 {
-                width: 1em;
-                height: auto;
+                width: 3em;
+                height:2em;
                 font-size: 0.8em;
             }
             input#match-6 {
-                width: 1em;
-                height: auto;
+                width: 3em;
+                height:2em;
                 font-size: 0.8em;
             }
 
@@ -393,6 +393,7 @@ a#home {
                 font-size: 0.8em;
                 width: 1.7em;
                 height: 2em;
+                margin: 7px;
             }
 
             p#question {
@@ -401,8 +402,8 @@ a#home {
             }
 
             input#exist-0, input#exist-1, input#exist-2, input#exist-3, input#exist-4, input#exist-5, input#exist-6{
-                width: 1em;
-                height: auto;
+                width: 3em;
+                height:2em;
                 font-size: 0.8em;
             }
 
