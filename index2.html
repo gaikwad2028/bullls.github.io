@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BullsCows</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <div class="main-container">
+    <div class="container" id="hidden">
+        <div class="checked">
+            <table>
+                <tr>
+                    <td>GUESS</td>
+                    <td>EXIST</td>
+                    <td>MATCH</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="guess-0" size="4" maxlength="4" disabled ></td>
+                    <td><input type="text" id="exist-0" disabled maxlength="1"></td>
+                    <td><input type="text" id="match-0" disabled maxlength="1"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="guess-1"  size="4" maxlength="4" disabled></td>
+                    <td><input type="text" id="exist-1" disabled maxlength="1"></td>
+                    <td><input type="text" id="match-1" disabled maxlength="1"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="guess-2" size="4" maxlength="4" disabled></td>
+                    <td><input type="text" id="exist-2" disabled maxlength="1"></td>
+                    <td><input type="text"  id="match-2"disabled maxlength="1"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="guess-3"size="4" maxlength="4"disabled></td>
+                    <td><input type="text" id="exist-3"disabled maxlength="1"></td>
+                    <td><input type="text"  id="match-3"disabled maxlength="1"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="guess-4" size="4" maxlength="4"  disabled></td>
+                    <td><input type="text" id="exist-4" maxlength="1" disabled></td>
+                    <td><input type="text"  id="match-4" maxlength="1" disabled></td>
+                </tr>
+                <tr>
+                    <td><input type="text"id="guess-5" size="4" maxlength="4" disabled></td>
+                    <td><input type="text" id="exist-5" maxlength="1"  disabled></td>
+                    <td><input type="text"  id="match-5" maxlength="1"  disabled></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="guess-6" size="4" maxlength="4"  disabled></td>
+                    <td><input type="text"id="exist-6"  maxlength="1" disabled></td>
+                    <td><input type="text"  id="match-6" maxlength="1"  disabled></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sub-container-1">s
+            <h2 id="enter">ENTER NUMBER</h2>
+            <table class="second">
+                <tr>
+                    <td><input type="text" id="input" size="1" maxlength="1" requireds>
+                        <input type="text" id="input-1" size="1" maxlength="1" required>
+                        <input type="text" id="input-2" size="1" maxlength="1" required>
+                        <input type="text" id="input-3" size="1" maxlength="1" required>
+                    </td>
+                </tr>
+            </table>
+            <h2 class="original">original</h2>
+            <p id="question">????</p>
+            <br>
+            <br>
+            <a href="#" id="checking" onclick="clickme()">check</a>
+            <a href="index.html" id="New" onclick="clickus()">New</a>
+        </div>
+    </div>
+    <div class="correct" id="right">
+        <articel>
+        <p id="co">C</p>
+        <p id="co">O</p>
+        <p id="co">N</p>
+        <p id="co">G</p>
+        <p id="co">R</p>
+        <p id="co">A</p>
+        <p id="co">T</p>
+        <p id="co">S</p>
+    </articel>
+        <img src="me-hands-up.gif" class="yay">
+        <div class="btn">
+            <a href="game.html" id="home">HOME</a>
+        </div>
+    </div>
+        <audio autoplay>
+            <source src="I Will Kill You.mp3"type="audio/mpeg">
+        </audio>
+        <audio id="ok">
+            <source src="mixkit-positive-interface-click-1112.wav"type="audio/mpeg">
+        </audio>
+       
+      
+        <script src="index.js"></script>
+</body>
+
+</body>
+</html>

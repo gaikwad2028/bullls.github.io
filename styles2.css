@@ -1,0 +1,360 @@
+.main-container{
+    position: relative;
+    width: 80em;
+    margin: 0px auto;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+    margin-top: 66px;
+  background-color: black;
+    padding: 50px;
+    visibility: visible;
+    
+}
+
+
+
+td {
+    font-size: 45px;
+    margin: 16px;
+    color:white;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+
+input#number,#number-5,#number-6,#number-7,#number-8,#number-9,#number-0 {
+    width: 199px;
+}
+
+input[type="text"] {
+    width: 132px;
+    height: 81px;
+    margin: 30px;
+    border: 2px solid black;
+    font-size: 45px;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+
+
+
+tr {
+    text-align: center;
+}
+.checked {
+    border: 2px solid black;
+    padding: 80px;
+    background-image: linear-gradient(35deg, red, blue,black);
+    box-shadow: 2px 2px 20px white;
+}
+
+.sub-container-1{
+    text-align: center;
+    width: max-content;
+    border: 2px solid black;
+    background-image: linear-gradient(35deg, red, blue,black);
+    box-shadow: 2px 2px 20px white;
+    min-width: fit-content;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 45px;
+    margin: 2px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p#question {
+    display: inline-block;
+    margin: 21px 0px;
+    font-size: 84px;
+    border: 7px solid #800023d9;;
+    padding: 11px;
+    width: 3em;
+    position: relative;
+    box-shadow: 2px 4px 10px steelblue;
+    color: red;
+    bottom: -2em;
+}
+
+h2#enter {
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    top: 47px;
+}
+a {
+   display: inline-block;
+    margin-left: 14px;
+    border: none;
+    font-size: 40px;
+    color:white;
+    font-weight: 200;
+    background-color: yellowgreen;
+    padding: 20px 62px;
+    position: relative;
+    bottom: -9em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h2.original {
+    position: relative;
+    bottom: -3em;
+}
+
+table.second {
+    position: relative;
+    bottom: -4em;
+}
+
+a:hover{
+    background-color: bisque;
+}
+
+p.k {
+    font-size: 54px;
+    font-family: 'Roboto Condensed', sans-serif;
+     color: #ff4747;
+     display: none;
+}
+
+.correct {
+    position: absolute;
+    left: 0%;
+    font-size: 130px;
+    top: 25%;
+    color: antiquewhite;
+    display: none;
+}
+
+body {
+    background-color: black;
+}
+
+.yay {
+    width: 5em;
+    background-color: black;
+    position: absolute;
+    left: 2em;
+    
+}
+
+p#co {
+   
+    color: yellow;
+
+
+}
+
+
+
+articel {
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 50px;
+    position: relative;
+    left: 1em;
+    top:-2em;
+  
+}
+
+@keyframes glide {
+    0% {
+        top: 0em;
+    }
+     
+     100% {
+
+        top:-1em;
+     }
+  
+  }
+
+  .main-container {
+    position: relative;
+    display: flex;
+    transform: rotate(360deg);
+}
+
+
+@keyframes exampel{
+    0%   { left:0px; top:0px;}
+    100%  { left:0px; top:200px;}
+    
+} 
+.btn {
+   
+    position: relative;
+    top: 1em;
+    left: -46px;
+    visibility: hidden;
+}
+a#home {
+    position: absolute;
+}
+
+@media only screen and (min-width: 1200px) {
+    
+
+    .sub-container-1 {
+        padding: 0em;
+        width: max-content;}
+
+        .checked {
+            padding: 1em;
+        }
+
+        input#guess-6,#guess-0,#guess-1,#guess-2,#guess-3,#guess-4,#guess-5{
+            margin: 1px;
+            width: fit-content;}    
+
+            td {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .main-container {
+                margin: 0px auto;
+                width: 80em;
+            }
+
+            input#input,#input-1,#input-2,#input-3 {
+                width: fit-content;
+                margin: 24px;
+            }
+
+    
+    
+}
+
+@media only screen and (min-width: 992px) {
+
+    .main-container {
+        margin: 0px auto;
+        width: 80em;
+    }
+
+    .sub-container-1 {
+        padding: 0em;
+        width: max-content;}
+
+        .checked {
+            padding: 1em;
+        }
+
+        input#guess-6,#guess-0,#guess-1,#guess-2,#guess-3,#guess-4,#guess-5{
+            margin: 1px;
+            width: fit-content;}    
+
+            td {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            input#input,#input-1,#input-2,#input-3 {
+                width: fit-content;
+                margin: 24px;
+            }
+
+           
+}
+
+
+@media only screen and (min-width: 768px) {
+    .main-container {
+        margin: 0px auto;
+        width: 80em;
+    }
+
+    .sub-container-1 {
+        padding: 0em;
+        width: max-content;}
+
+        .checked {
+            padding: 1em;
+        }
+
+        input#guess-6,#guess-0,#guess-1,#guess-2,#guess-3,#guess-4,#guess-5{
+            margin: 1px;
+            width: fit-content;}    
+
+            td {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            input#input,#input-1,#input-2,#input-3 {
+                width: fit-content;
+                margin: 24px;
+            }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .main-container {
+        width: 80em;
+        margin: 0px auto;
+    }
+
+    .sub-container-1 {
+        padding: 0em;
+        width: max-content;}
+
+        .checked {
+            padding: 1em;
+        }
+
+        input#guess-6,#guess-0,#guess-1,#guess-2,#guess-3,#guess-4,#guess-5{
+            margin: 1px;
+            width: fit-content;}    
+
+            td {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            input#input,#input-1,#input-2,#input-3 {
+                width: fit-content;
+                margin: 24px;
+            }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main-container {
+        margin: 0px auto;
+        width: 80em;
+    }
+
+    .sub-container-1 {
+        padding: 0em;
+        width: max-content;}
+
+        .checked {
+            padding: 1em;
+        }
+
+        input#guess-6,#guess-0,#guess-1,#guess-2,#guess-3,#guess-4,#guess-5{
+            margin: 1px;
+            width: fit-content;}    
+
+            td {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            input#input,#input-1,#input-2,#input-3 {
+                width: fit-content;
+                margin: 24px;
+            }
+}
